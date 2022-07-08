@@ -1,7 +1,12 @@
+// Programmers
+// Title : 구명보트
+// URL : https://school.programmers.co.kr/learn/courses/30/lessons/42885
+
 #include <string>
 #include <vector>
 #include <iostream>
 #include <algorithm>
+
 using namespace std;
 
 int solution(vector<int> people, int limit) {
