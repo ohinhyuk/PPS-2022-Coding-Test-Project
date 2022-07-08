@@ -4,8 +4,8 @@ using namespace std;
 
 int main(int argc , char** argv){
 
-    cin.tie(NULL); cout.tie(NULL);
-    ios_base::sync_with_stdio(false);
+    // cin.tie(NULL); cout.tie(NULL);
+    // ios_base::sync_with_stdio(false);
 
     int N_1;
     cin >> N_1;
@@ -30,7 +30,7 @@ int main(int argc , char** argv){
         cout.setf(ios::showpoint);
         cout<<fixed;
         cout.precision(3);
-        cout << float(avr_up) / N_2 * 100 << "%" << endl;
+        cout << float(avr_up) / N_2 * 100 << "%\n";
 
     }
 
