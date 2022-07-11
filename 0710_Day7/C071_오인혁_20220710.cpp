@@ -36,11 +36,15 @@ int main(void){
         v.push_back(input);
     }
 
+    // first elem
     end = v[0];
     
-
     for(int i = 1 ; i < N ; ++i){
+        
+        // 오르막 ing
         if(end < v[i]){ end= v[i]; k++;}
+        
+        // 오르막 off
         else{
             diff = end - v[i-1-k];
             if(max < diff) max = diff;
@@ -49,6 +53,7 @@ int main(void){
         }
     }
 
+    // last
     if(k > 0){
         diff = end - v[N-1-k];
         if(max < diff) max = diff;
