@@ -67,7 +67,8 @@ int main(){
 		}
 		a_temp[it] = a[i];
 	}
-	
+	// b : 11221
+
 	a = a_temp;
 
 	// cout << "a : ";
