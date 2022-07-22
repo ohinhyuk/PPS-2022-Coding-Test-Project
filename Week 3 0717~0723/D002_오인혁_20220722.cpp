@@ -17,4 +17,5 @@ int main(void){
 
         printf("%d%02d\n",front,back);
     }
+
 }
