@@ -37,12 +37,10 @@ public:
     void push(int num){
         arr[++index] = num;
     }
-
     int top(){
         if(index == -1) return -1;
         return arr[index];
     }
-    
     int size(){
         return (index+1);
     }
