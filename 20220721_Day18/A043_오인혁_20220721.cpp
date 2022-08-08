@@ -4,6 +4,7 @@
 
 class Solution {
 public:
+
     string longestCommonPrefix(vector<string>& strs) {
         int min = 201;
         string s;
